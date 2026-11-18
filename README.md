@@ -87,7 +87,7 @@ Spec e planos em `docs/superpowers/`. Guia para quem opera: `LEIA-ME.md`.
 
 `/replai` is a Claude Code skill that comments on posts from a list of profiles on LinkedIn and X, in
 the account's voice, and posts by itself: both networks together, in one browser, with operator review
-in the first rounds and learning from every correction. **Watch mode** replies 5 to 25 minutes after
+in the first rounds and learning from every correction. After 3 reviewed rounds in a row with no correction on a network, it can switch to **autopilot** (posts without approval). **Watch mode** replies 5 to 25 minutes after
 someone on the list posts. It never comments twice on the same post. To install, ask Claude (Code
 tab) to "install Replai: https://github.com/moic-digital-org/replai" (public repo, no GitHub account needed); Claude clones it, runs `scripts/instalar.py` and
 the setup is guided, in Portuguese or English. One account runs on one PC only.
