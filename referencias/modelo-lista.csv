@@ -1,0 +1,3 @@
+﻿Nome;LinkedIn;X;Prioridade;Incluir;Observação
+Exemplo Pessoa;https://www.linkedin.com/in/exemplo-pessoa/;@exemplo;alta;Sim;apague esta linha
+Exemplo Empresa;https://www.linkedin.com/company/exemplo/;;normal;Sim;só LinkedIn: deixe o X vazio
