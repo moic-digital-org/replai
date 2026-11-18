@@ -55,8 +55,28 @@ depois em **Executar assim mesmo**.
    (uma vez só). A partir daí ele escreve sozinho quando alguém da lista posta e guarda para você
    aprovar com `/replai aprovar`.
 
-Depois de **3 rodadas seguidas sem você precisar corrigir**, ele pergunta se pode postar sem a sua
-revisão. Antes disso, ele não posta nada sem você aprovar.
+## Rodar sozinho (sem aprovar cada comentário)
+
+O Replai tem dois modos, escolhidos por rede:
+
+| Modo | Como funciona |
+|---|---|
+| **Revisão** (o começo) | ele lê, escreve e espera o seu ok antes de postar |
+| **Sozinho** | ele lê, escreve e posta sem esperar você |
+
+**Quando libera o sozinho:** depois de **3 rodadas revisadas seguidas sem nenhuma correção sua** naquela
+rede. Aí o `/replai` pergunta se pode passar a rede para o sozinho; antes disso, ele recusa. A ideia é
+só soltar quando a voz estiver certa. O caminho mais rápido é uma rodada por dia, respondendo **ok**
+quando estiver bom.
+
+**Sozinho + vigia = piloto automático.** Com o vigia ligado, ele comenta de 5 a 25 minutos depois que
+alguém da lista posta, sem você abrir nada. Precisa do computador ligado e da sua sessão aberta (pode
+bloquear a tela).
+
+**O que continua valendo no sozinho:** os tetos do dia, o horário (8h às 22h; no X até 23h), as pausas
+e a parada em verificação ou captcha. Tudo fica na planilha; se não gostar de um comentário já
+publicado, marque na coluna **Nota da revisão** e ele aprende. Para voltar à revisão, peça "volta o
+LinkedIn para revisão" (ou o X).
 
 ## No dia a dia
 

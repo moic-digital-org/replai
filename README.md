@@ -3,7 +3,8 @@
 Skill do Claude Code (`/replai`) que comenta nos posts dos perfis de uma lista, no LinkedIn e no X, na
 voz da conta, e posta sozinha (curte e comenta/responde). As duas redes andam juntas: um navegador,
 uma aba só que as redes revezam, escondida, um escritor só e a postagem das duas ao mesmo tempo. Nas primeiras rodadas quem
-opera revisa no chat, e cada correção vira aprendizado. O **modo vigia** responde entre 5 e 25
+opera revisa no chat, e cada correção vira aprendizado; depois de 3 rodadas seguidas sem correção numa
+rede, ela pode passar para o **modo sozinho** (posta sem esperar aprovação). O **modo vigia** responde entre 5 e 25
 minutos depois de alguém da lista postar (no X pela Lista, no LinkedIn pelo sininho). Nunca comenta
 duas vezes no mesmo post. Conversa em português ou inglês.
 
